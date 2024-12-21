@@ -1,0 +1,41 @@
+/* Fonts */
+.navbar .navbar-nav .nav-item a:not(.btn) {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+header {
+  background: transparent;
+}
+
+/* #header-left {
+  border-right: 0.625rem solid var(--novtn-secondary-color);
+} */
+
+.header-right-top {
+  color: var(--light-text-color);
+}
+
+.header-right-top i {
+  color: var(--novtn-secondary-color);
+}
+.header-right-top .telephone {
+  border-right: 1px solid var(--light-text-color);
+}
+
+/* navbar */
+
+/* .header-right-bottom .navbar .nav-link {
+  padding: 0;
+  width: 151px;
+  display: flex;
+  justify-content: center;
+} */
+
+.navbar a {
+  color: var(--novtn-secondary-color);
+  /* padding: 0; */
+}

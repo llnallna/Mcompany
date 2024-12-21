@@ -1,0 +1,35 @@
+:root {
+  --novtn-primary-color: #058283;
+  --novtn-secondary-color: #00a6a6;
+  --novtn-tertiary-color: #21333e;
+  --novtn-quaternary-color: #21333ef7;
+  --white-bg-color: #fff;
+  /* --light-bg-color: #f1f1f1; */
+  --light-bg-color: #1d252e;
+  /* --dark-bg-color: #111117; */
+  --dark-bg-color: #13161d;
+  --white-text-color: #fff;
+  --light-text-color: #8f93a5;
+  --dark-text-color: #606d75;
+  --success-color: #007a4d;
+  --warning-color: #ff9800;
+  --danger-color: #e34f4f;
+
+  /* fonts */
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+}
+
+div,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.8px);
+  -webkit-backdrop-filter: blur(3.8px);
+}

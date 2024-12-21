@@ -1,0 +1,20 @@
+#footer {
+  color: var(--light-text-color);
+  background-color: var(--dark-bg-color);
+}
+
+#footer .footer-info .card h3 {
+  color: var(--white-text-color);
+}
+
+/* footer-info */
+#footer .footer-info .card {
+  background-color: var(--light-bg-color);
+  color: var(--light-text-color);
+}
+
+/* footer-copyright */
+#footer .footer-copyright {
+  background-color: var(--light-bg-color);
+  color: yellow;
+}

@@ -1,0 +1,98 @@
+/* .card {
+  transition: 0.4s ease;
+  opacity: 0.4;
+  transform: scale(0.8);
+}
+
+.selected {
+  transform: scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+
+.left {
+  transform: translateX(-40%) scale(0.8);
+}
+
+.right {
+  transform: translateX(40%) scale(0.8);
+} */
+/* 
+
+son deneme
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin: 50px auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  width: 60%;
+  transition: all 0.5s ease;
+  opacity: 0.6;
+  transform: scale(0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.selected {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 1;
+}
+
+.left {
+  transform: scale(0.8);
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.right {
+  transform: scale(0.8);
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 24px;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+} */

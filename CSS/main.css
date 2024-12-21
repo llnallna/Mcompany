@@ -1,0 +1,10 @@
+/* base.css */
+@import url(base.css);
+
+/* layouts */
+@import url(./Layout/header.css);
+@import url(./Layout/swiper.css);
+@import url(./Layout/footer.css);
+
+/* pages.css */
+@import url(./Pages/home.css);
