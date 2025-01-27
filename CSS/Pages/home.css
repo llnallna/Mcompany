@@ -144,3 +144,55 @@
 }
 
 /* Contact Section */
+
+/* #home-contact-sec {
+  height: 100vh;
+} */
+
+/* .boxes {
+  height: 50vh;
+} */
+
+.contact-sect-box {
+  position: relative;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 30px;
+  padding: 40px;
+  padding-bottom: 0;
+  background: yellow;
+  border-radius: 7px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  transition: 0.2s;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.contact-sect-box:hover {
+  box-shadow: 0 44px 98px 0 rgba(0, 0, 0, 0.12);
+  z-index: 100;
+}
+
+.contact-sect-box i {
+  font-size: 42px;
+}
+
+.box-text-area {
+  display: inline-block;
+  vertical-align: bottom;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-sect-box:hover .box-text-area p {
+  opacity: 1;
+}
+
+.box-text-area p {
+  position: relative;
+  margin-bottom: -135px;
+  transition: 0.25s;
+  font-family: inherit !important;
+  opacity: 0;
+}

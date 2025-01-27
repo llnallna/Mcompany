@@ -21,7 +21,8 @@
 }
 
 div,
-p {
+p,
+.container-fluid {
   margin: 0;
   padding: 0;
 }
@@ -32,4 +33,9 @@ p {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.8px);
   -webkit-backdrop-filter: blur(3.8px);
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
 }

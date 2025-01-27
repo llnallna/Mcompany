@@ -10,19 +10,19 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
     <!-- Bootstrap Icons CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./CSS/main.css" />
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
 
-    <title>NOVATON | NOVATHON</title>
+    <title>NorMec</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
             <div class="row align-items-center justify-content-center">
                 <!-- header-left -->
                 <div class="logo col-2 d-flex align-items-center justify-content-center" id="header-left">
-                    <a href="#"><img src="https://oitech.codelayers.net/images/logo.png" alt="NovaTon" /></a>
+                    <a href="#"><img src="assets/home/logo.png" alt="NovaTon" /></a>
                 </div>
                 <!-- header-right -->
                 <div class="col-9 container py-3" id="header-right">
@@ -60,10 +60,10 @@
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end flex-grow-1">
-                                        <li class="nav-item mx-2 ">
+                                        <li class="nav-item mx-2">
                                             <a class="nav-link active" aria-current="page" href="#">HOME</a>
                                         </li>
-                                        <li class="nav-item mx-2  dropdown">
+                                        <!-- <li class="nav-item mx-2 dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" role="button"
                                                 data-bs-toggle="dropdown" aria-expanded="false">
                                                 PROJE
@@ -85,29 +85,63 @@
                                                     <a class="dropdown-item" href="#">Yangın Tesisatı</a>
                                                 </li>
                                             </ul>
+                                        </li> -->
+                                        <li class="nav-item mx-2" aria-current="page">
+                                            <a class="nav-link" href="#">
+                                                YANGIN GÜVENLİK SİSTEMLERİ
+                                            </a>
                                         </li>
-                                        <li class="nav-item mx-2 ">
-                                            <a class="nav-link" aria-current="page" href="#">OTOMASYON</a>
+                                        <li class="nav-item mx-2" aria-current="page">
+                                            <a class="nav-link" href="#">
+                                                HAVALANDIRMA SİSTEMLERİ
+                                            </a>
                                         </li>
-                                        <li class="nav-item mx-2 ">
+                                        <li class="nav-item mx-2 dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">OTOMASYON</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Elektrik Otomasyon</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Mekanik Otomasyon</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item mx-2">
                                             <a class="nav-link" aria-current="page" href="#">PERİYODİK KONTROL</a>
                                         </li>
-                                        <li class="nav-item mx-2  dropdown">
+                                        <li class="nav-item mx-2 dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" role="button"
                                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                                BELGELENDİRME
+                                                ÜRÜN BELG.
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Ürün Belgelendirme</a>
+                                                    <a class="dropdown-item" href="#">CE</a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">Sistem Belgelendirme</a>
+                                                    <a class="dropdown-item" href="#">ATEX</a>
                                                 </li>
-                                                <li><a class="dropdown-item" href="#">Formlar</a></li>
+                                                <li><a class="dropdown-item" href="#">TSE</a></li>
                                             </ul>
                                         </li>
-                                        <li class="nav-item ms-2 ">
+                                        <li class="nav-item mx-2 dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                SİSTEM BELG.
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">ISO 9001</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">ISO 9001</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">ISO 9001</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item ms-2">
                                             <a class="nav-link pe-0" href="#">İLETİŞİM</a>
                                         </li>
                                     </ul>
@@ -123,11 +157,11 @@
     <!-- HERO Starts -->
 
     <section class="hero min-vh-100 position-relative" style="
-          background: url(https://www.5levent.com.tr/Content/upload/hero-bg.jpg);
-          background-position: top center;
-          background-size: cover;
-          color: blueviolet;
-        ">
+        background-image: url(assets/home/hero_quality_control.jpg);
+        background-position: top center;
+        background-size: cover;
+        color: blueviolet;
+      ">
         <div class="hero-wrapper position-absolute bottom-0 start-0 d-flex justify-content-center align-items-center">
             <div class="line">aaa</div>
             <h1>Şirketinizi Doğru Yönlendirmek İçin Buradayız</h1>
@@ -135,18 +169,104 @@
     </section>
     <form action="#"></form>
 
+    <!-- FORM -->
+    <form action="#" class="form-hero" method="post">
+        <input name="__RequestVerificationToken" type="hidden"
+            value="49PH-7bPJyt_G7C-itCKYDdOXVBF6Jy8olIt9EKaIT5VgOYna513ShKUPzfBUHuE7aXvARVEKKOKWHzPNgYSWDUGDzM1" />
+        <span class="form-hero-bg"></span>
+        <div class="mb-3 text-center">
+            <svg class="icon icon-korupark">
+                <use xlink:href="#icon-korupark"></use>
+            </svg>
+        </div>
+        <input type="hidden" name="utm_source" class="utm_source" />
+        <input type="hidden" name="utm_medium" class="utm_medium" />
+        <input type="hidden" name="utm_campaign" class="utm_campaign" />
+        <div class="mb-3 d-flex">
+            <input class="form-control" type="text" required="required" autocomplete="off" name="FirstName"
+                placeholder="Adınız" aria-label="Adınız" />
+            <input class="form-control" type="text" required="required" name="LastName" placeholder="Soyadınız"
+                aria-label="Soyadınız" />
+        </div>
+        <div class="mb-3">
+            <input class="form-control" type="tel" required="required" autocomplete="off" name="MobilePhone"
+                placeholder="Telefon" aria-label="Telefon" />
+        </div>
+        <div class="mb-3">
+            <input class="form-control" type="email" autocomplete="off" name="EmailAdress" placeholder="E-Mail"
+                aria-label="E-Mail" />
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" placeholder="Mesajınız" autocomplete="off" name="MessageText"
+                aria-label="Mesajınız" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <select class="form-select" name="DaireTuru" aria-label="Daire Tipi Seçiniz">
+                <option selected="selected">Daire Tipi Seçiniz</option>
+                <option value="1+1">1+1</option>
+                <option value="2+1">2+1</option>
+                <option value="3+1">3+1</option>
+                <option value="4+1">4+1</option>
+            </select>
+        </div>
+        <div class="pb-2 border-bottom-gold">
+            <div class="form-text">
+                Tarafıma, kanunlara uygun bir şekilde, her türlü ürün ve hizmetlere
+                ilişkin çeşitli tanıtım, promosyon, reklam, satış ve pazarlama
+                amacıyla .... Şirketi
+                tarafından aşağıdaki seçtiğim yöntemler ve iletişim araçları ile
+                ticari elektronik iletiler gönderilmesine onay veriyorum.
+            </div>
+        </div>
+        <div class="py-1 d-flex justify-content-between border-bottom-gold">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="PermitPhone" name="PermitPhone" value="false" />
+                <label class="form-check-label" for="PermitPhone">Telefon</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="PermitSMS" name="PermitSMS" value="false" />
+                <label class="form-check-label" for="PermitSMS">Kısa Mesaj<br />SMS / Bildirim</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="PermitEmail" name="PermitEmail" value="false" />
+                <label class="form-check-label" for="PermitEmail">E-Mail</label>
+            </div>
+        </div>
+        <div class="form-check pt-2 mb-4">
+            <input class="form-check-input" type="checkbox" value="false" id="Kvvk" name="Kvvk" />
+            <label class="form-check-label" for="Kvvk">
+                <a class="text-white text-decoration-none" href="#" data-fancybox=""
+                    data-src="/gizlilik-beyani#kvvk-content" data-type="iframe" data-preload="false" data-width="800"
+                    data-height="600">Aydinlatma metni</a>
+                kapsam ve sinirinda .... Sirketi tarafindan kisisel
+                verilerimin islenmesine onay veriyorum.
+            </label>
+        </div>
+        <div class="mb-2 text-center">
+            <button type="submit" class="btn btn-light px-5 mb-3 fs-5">
+                GÖNDER
+            </button>
+        </div>
+        <button type="submit" class="btn-phone-hero">
+            <span class="span-phone">
+                <svg class="icon icon-phone">
+                    <use xlink:href="#icon-phone"></use>
+                </svg>
+            </span>
+        </button>
+    </form>
 
     <!-- MAIN Starts -->
     <main>
-        <section class="container-fluid home-about-section ">
+        <section class="container-fluid home-about-section">
             <div class="row">
-                <img src="korupark.png" alt="" class="col-4">
-                <p class="col-6 offset-1 m-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum
-                    doloremque, minus
-                    ea,
-                    dignissimos
-                    libero dolor nulla numquam, veritatis corporis omnis. Quibusdam molestiae a numquam et facere beatae
-                    nostrum corporis.</p>
+                <img src="assets/home/about-mask.jpg" alt="" class="col-4" />
+                <p class="col-6 offset-1 m-5 p-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum
+                    doloremque, minus ea, dignissimos libero dolor nulla numquam,
+                    veritatis corporis omnis. Quibusdam molestiae a numquam et facere
+                    beatae nostrum corporis.
+                </p>
             </div>
         </section>
         <!-- ENGINEERING Starts -->
@@ -227,22 +347,23 @@
                 </div>
             </div>
         </section> -->
-        <br>
+        <br />
         <!-- silinecek -->
         <section id="home-engineering-section" class="position-relative">
             <div class="container-fluid">
-                <div class="row  vh-100">
+                <div class="row vh-100">
                     <div
                         class="col-4 index-sec-services-bg position-relative text-white d-flex justify-content-center flex-column ps-6">
                         <!-- <div class="col-1">
                             <hr class="border border-light opacity-75">
-                        </div> --> <!--bunu sildik çünkü before  ile verdik ama henüz görünmüyor-->
-                        <h2 class="services-title font-playfair-display fw-semibold position-relative z-1">Mühendislik
-                            Hizmetleri</h2>
+                        </div> -->
+                        <!--bunu sildik çünkü before  ile verdik ama henüz görünmüyor-->
+                        <h2 class="services-title font-playfair-display fw-semibold position-relative z-1">
+                            Mühendislik Hizmetleri
+                        </h2>
                         <p class="mt-5">
-                            We can help you discover the incredibly exclusive
-                            architecture and some of Istanbul's most desirable
-                            features.
+                            We can help you discover the incredibly exclusive architecture
+                            and some of Istanbul's most desirable features.
                         </p>
                         <a class="mt-5" href="#">
                             <svg fill="#fff" class="icon icon-arrow-left" width="50" height="50">
@@ -254,15 +375,16 @@
 
                     <div class="col-8">
                         <div class="row row-cols-3 h-100">
-                            <div class="card text-bg-dark rounded-0 p-0"
-                                style="background-image: url(https://picsum.photos/id/777/440/1198);">
+                            <div class="card text-bg-dark rounded-0 p-0" style="
+                    background-image: url(https://picsum.photos/id/777/440/1198);
+                  ">
                                 <a href="#"
                                     class="text-decoration-none px-5 text-white card-img-overlay d-flex flex-column justify-content-end p-0">
                                     <div class="mb-3">
                                         <span class="border-start border-1 p-4 d-block"></span>
                                     </div>
                                     <h4 class="card-title fw-light py-2 fs-6">01</h4>
-                                    <div style="height: 200px;">
+                                    <div style="height: 200px">
                                         <h1 class="card-title font-playfair-display fs-3 lh-1 mt-5 mb-4">
                                             Proje
                                         </h1>
@@ -275,15 +397,16 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="card text-bg-dark rounded-0 p-0"
-                                style="background-image: url(https://picsum.photos/id/350/440/1198);">
+                            <div class="card text-bg-dark rounded-0 p-0" style="
+                    background-image: url(https://picsum.photos/id/350/440/1198);
+                  ">
                                 <a href="#"
                                     class="text-decoration-none px-5 text-white card-img-overlay d-flex flex-column justify-content-end p-0">
                                     <div class="mb-3">
                                         <span class="border-start border-1 p-4 d-block"></span>
                                     </div>
                                     <h4 class="card-title fw-light py-2 fs-6">02</h4>
-                                    <div style="height: 200px;">
+                                    <div style="height: 200px">
                                         <h1 class="card-title font-playfair-display fs-3 lh-1 my-5 pb-5">
                                             Proje Uygulama
                                         </h1>
@@ -291,30 +414,27 @@
                                 </a>
                             </div>
 
-                            <div class="card text-bg-dark rounded-0 p-0"
-                                style="background-image: url(https://picsum.photos/id/3/440/1198);">
+                            <div class="card text-bg-dark rounded-0 p-0" style="
+                    background-image: url(https://picsum.photos/id/3/440/1198);
+                  ">
                                 <a href="#"
                                     class="text-decoration-none px-5 text-white card-img-overlay d-flex flex-column justify-content-end p-0">
                                     <div class="mb-3">
                                         <span class="border-start border-1 p-4 d-block"></span>
                                     </div>
                                     <h4 class="card-title fw-light py-2 fs-6">03</h4>
-                                    <div style="height: 200px;">
+                                    <div style="height: 200px">
                                         <h1 class="card-title font-playfair-display fs-3 lh-1 mt-5">
                                             Mekanik Otomaston
                                         </h1>
                                     </div>
                                 </a>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-
-
 
         <section id="section-projects" class="container-fluid fav-prj-bg">
             <h2>PERİYODİK KONTROL</h2>
@@ -350,8 +470,6 @@ son deneme
             </div>
  -->
 
-
-
             <!-- burada swiper kyllanıp 5. levent gibi yapacağız -->
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -359,15 +477,15 @@ son deneme
                         <div class="row">
                             <div class="col-md-4">
                                 <img src="https://www.5levent.com.tr/Content/upload/galeri-19.jpeg"
-                                    class="d-block w-100 img-fluid" alt="...">
+                                    class="d-block w-100 img-fluid" alt="..." />
                             </div>
                             <div class="col-md-4">
                                 <img src="https://www.5levent.com.tr/Content/upload/galeri-1.jpeg"
-                                    class="d-block w-100 img-fluid" alt="...">
+                                    class="d-block w-100 img-fluid" alt="..." />
                             </div>
                             <div class="col-md-4">
                                 <img src="https://www.5levent.com.tr/Content/upload/galeri-19.jpeg"
-                                    class="d-block w-100 img-fluid" alt="...">
+                                    class="d-block w-100 img-fluid" alt="..." />
                             </div>
                         </div>
                     </div>
@@ -375,15 +493,15 @@ son deneme
                         <div class="row">
                             <div class="col-md-4">
                                 <img src="https://picsum.photos/id/4/1920/600" class="d-block w-100 img-fluid"
-                                    alt="...">
+                                    alt="..." />
                             </div>
                             <div class="col-md-4">
                                 <img src="https://picsum.photos/id/5/1920/600" class="d-block w-100 img-fluid"
-                                    alt="...">
+                                    alt="..." />
                             </div>
                             <div class="col-md-4">
                                 <img src="https://picsum.photos/id/6/1920/600" class="d-block w-100 img-fluid"
-                                    alt="...">
+                                    alt="..." />
                             </div>
                         </div>
                     </div>
@@ -445,8 +563,6 @@ son deneme
             <!-- </div> -->
         </section>
 
-
-
         <section class="home-certification-section">
             <h2>BELGELENDİRME</h2>
             <div class="container-fluid">
@@ -462,18 +578,25 @@ son deneme
                                                     <div id="sppb-addon-wrapper-1687474410539"
                                                         class="sppb-addon-wrapper">
                                                         <div id="sppb-addon-1687474410539"
-                                                            class=" sppb-wow fadeInUp clearfix  sppb-animated"
-                                                            data-sppb-wow-duration="1000ms"
-                                                            style="visibility: visible; animation-duration: 1000ms; animation-name: fadeInUp;">
+                                                            class="sppb-wow fadeInUp clearfix sppb-animated"
+                                                            data-sppb-wow-duration="1000ms" style="
+                                  visibility: visible;
+                                  animation-duration: 1000ms;
+                                  animation-name: fadeInUp;
+                                ">
                                                             <div
-                                                                class="sppb-addon sppb-addon-text-block  feature-block-inner-box">
-                                                                <div class="sppb-addon-title"><i
-                                                                        class="icon flaticon-business-002-graph"></i>
-                                                                    <h5 class="title"><a href="/pages/about">Perfect
-                                                                            Business Solutions</a></h5>
+                                                                class="sppb-addon sppb-addon-text-block feature-block-inner-box">
+                                                                <div class="sppb-addon-title">
+                                                                    <i class="icon flaticon-business-002-graph"></i>
+                                                                    <h5 class="title">
+                                                                        <a href="/pages/about">Perfect Business
+                                                                            Solutions</a>
+                                                                    </h5>
                                                                 </div>
-                                                                <div class="sppb-addon-content">When an unknown printer
-                                                                    took<br>a galley type book.</div>
+                                                                <div class="sppb-addon-content">
+                                                                    When an unknown printer took<br />a galley
+                                                                    type book.
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -486,18 +609,27 @@ son deneme
                                                     <div id="sppb-addon-wrapper-1687474410548"
                                                         class="sppb-addon-wrapper">
                                                         <div id="sppb-addon-1687474410548"
-                                                            class=" sppb-wow fadeInUp clearfix  sppb-animated"
+                                                            class="sppb-wow fadeInUp clearfix sppb-animated"
                                                             data-sppb-wow-duration="1000ms" data-sppb-wow-delay="400ms"
-                                                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 400ms; animation-name: fadeInUp;">
+                                                            style="
+                                  visibility: visible;
+                                  animation-duration: 1000ms;
+                                  animation-delay: 400ms;
+                                  animation-name: fadeInUp;
+                                ">
                                                             <div
-                                                                class="sppb-addon sppb-addon-text-block  feature-block-inner-box">
-                                                                <div class="sppb-addon-title"><i
-                                                                        class="icon flaticon-business-012-startup"></i>
-                                                                    <h5 class="title"><a href="/pages/about">Perfect
-                                                                            Business Solutions</a></h5>
+                                                                class="sppb-addon sppb-addon-text-block feature-block-inner-box">
+                                                                <div class="sppb-addon-title">
+                                                                    <i class="icon flaticon-business-012-startup"></i>
+                                                                    <h5 class="title">
+                                                                        <a href="/pages/about">Perfect Business
+                                                                            Solutions</a>
+                                                                    </h5>
                                                                 </div>
-                                                                <div class="sppb-addon-content">When an unknown printer
-                                                                    took<br>a galley type book.</div>
+                                                                <div class="sppb-addon-content">
+                                                                    When an unknown printer took<br />a galley
+                                                                    type book.
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -510,18 +642,27 @@ son deneme
                                                     <div id="sppb-addon-wrapper-1687474410553"
                                                         class="sppb-addon-wrapper">
                                                         <div id="sppb-addon-1687474410553"
-                                                            class=" sppb-wow fadeInUp clearfix  sppb-animated"
+                                                            class="sppb-wow fadeInUp clearfix sppb-animated"
                                                             data-sppb-wow-duration="1000ms" data-sppb-wow-delay="800ms"
-                                                            style="visibility: visible; animation-duration: 1000ms; animation-delay: 800ms; animation-name: fadeInUp;">
+                                                            style="
+                                  visibility: visible;
+                                  animation-duration: 1000ms;
+                                  animation-delay: 800ms;
+                                  animation-name: fadeInUp;
+                                ">
                                                             <div
-                                                                class="sppb-addon sppb-addon-text-block  feature-block-inner-box">
-                                                                <div class="sppb-addon-title"><i
-                                                                        class="icon flaticon-business-046-like"></i>
-                                                                    <h5 class="title"><a href="/pages/about">Perfect
-                                                                            Business Solutions</a></h5>
+                                                                class="sppb-addon sppb-addon-text-block feature-block-inner-box">
+                                                                <div class="sppb-addon-title">
+                                                                    <i class="icon flaticon-business-046-like"></i>
+                                                                    <h5 class="title">
+                                                                        <a href="/pages/about">Perfect Business
+                                                                            Solutions</a>
+                                                                    </h5>
                                                                 </div>
-                                                                <div class="sppb-addon-content">When an unknown printer
-                                                                    took<br>a galley type book.</div>
+                                                                <div class="sppb-addon-content">
+                                                                    When an unknown printer took<br />a galley
+                                                                    type book.
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -538,73 +679,77 @@ son deneme
         </section>
 
         <!-- CONTACT Section Starts -->
-        <section class="home-contact-section" id="home-contact-sec">
+        <section id="home-contact-sec" class="home-contact-section container-fluid">
             <h2>İLETİŞİM</h2>
-            <div class="container-fluid p-0">
-                <div class="row boxes justify-content-around">
-                    <div class="col-3 box">
-                        <i class="bi bi-envelope"></i>
-                        <h4>
-                            E-POSTA
-                        </h4>
+            <div class="container p-0">
+                <div class="row contact-sect-boxes justify-content-around">
+                    <div class="col-3 contact-sect-box">
+                        <div class="mb-2"><i class="bi bi-envelope"></i></div>
+                        <h4 class="mb-5">E-POSTA</h4>
+                        <div>
+                            <p class="e-mail ps-1 mb-0">needhelp@company.com</p>
+                        </div>
                     </div>
-                    <div class="col-3 box">
-                        <i class="bi bi-telephone"></i>
-                        <h4>
-                            TELEFON
-                        </h4>
+                    <div class="col-3 contact-sect-box">
+                        <div class="mb-2"><i class="bi bi-telephone"></i></div>
+                        <div class="box-text-area">
+                            <h4 class="mb-5">TELEFON</h4>
+                            <p class="tel-number ps-1 mb-0">+90 555 111 11 11</p>
+                        </div>
                     </div>
-                    <div class="col-3 box">
-                        <i class="bi bi-house-door"></i>
-                        <h4>
-                            ADRES
-                        </h4>
+                    <div class="col-3 contact-sect-box">
+                        <div class="mb-2"><i class="bi bi-house-door"></i></div>
+                        <h4 class="mb-5">ADRES</h4>
+                        <address>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, architecto voluptas! Quos,
+                            fugiat? / İstanbul
+                        </address>
                     </div>
-                </div>
-                <div class="row">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24055.93798753944!2d28.946649!3d41.091016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab10b44a66ff1%3A0x22f5e1aaa01a3f90!2s5.%20Levent!5e0!3m2!1str!2str!4v1682627254284!5m2!1str!2str"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40234.943678972624!2d2.1648380132458893!3d41.450501766202756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bb1298efb741%3A0x987b0abc3e6ea84d!2sBadalona%2C%20Barselona%2C%20%C4%B0spanya!5e0!3m2!1str!2str!4v1737489046429!5m2!1str!2str"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
 
     <!-- ********************** FOOTER STARTS ********************** -->
     <footer>
         <div class="container-fluid pt-5" id="footer">
-
             <!-- footer-info -->
             <div class="container footer-info mb-5 p-5">
                 <div class="row justify-content-between">
                     <div class="col-3 p-0">
                         <h3>NOVATON</h3>
                         <p>Şirketinizi Doğru Yönlendirmek İçin Buradayız</p>
-                        <br><br>
-                        <p>DiamondKey'deki gibi arkaplan fotoğraf olacak mı?
-                            <br>
-                            olmayacaksa biz de adresi solda verelim, kutulara servisleri dağıtalım(link olsunlar)
-                            <br>
-                            sayfalar çok usun olursa footer'da menu link oluşturmak mantıklı, kısa olursa gerek olmaz
+                        <br /><br />
+                        <!-- <p>
+                            DiamondKey'deki gibi arkaplan fotoğraf olacak mı?
+                            <br />
+                            olmayacaksa biz de adresi solda verelim, kutulara servisleri
+                            dağıtalım(link olsunlar)
+                            <br />
+                            sayfalar çok usun olursa footer'da menu link oluşturmak
+                            mantıklı, kısa olursa gerek olmaz
                         </p>
-                        <br>
-                        <p>box'ların radius'larını arttır(Novaton daha yuvarlak)</p>
+                        <br />
+                        <p>box'ların radius'larını arttır(Novaton daha yuvarlak)</p> -->
                     </div>
                     <div class="col-3 p-0">
-                        <div class="card" style="width: 18rem; height: 20rem;">
+                        <div class="card" style="width: 18rem; height: 20rem">
                             <div class="card-body">
                                 <h3 class="card-title">Adres</h3>
                                 <address class="card-subtitle mb-2">
-                                    Cumhuriyet Mah. Newista Residence A Blok Kat:26 No:228 Beylikdüzü
-                                    / İstanbul
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime dolore quam.
+                                    Nisi. / İstanbul
                                 </address>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-3 p-0">
-                        <div class="card" style="width: 18rem; height: 20rem;">
+                        <div class="card" style="width: 18rem; height: 20rem">
                             <div class="card-body">
                                 <h3 class="card-title">İletişim</h3>
                                 <h6 class="card-subtitle mb-2">
@@ -616,11 +761,12 @@ son deneme
                     </div>
 
                     <div class="col-3 p-0">
-                        <div class="card" style="width: 18rem; height: 20rem;">
+                        <div class="card" style="width: 18rem; height: 20rem">
                             <div class="card-body">
                                 <h3 class="card-title">Sosyal Medya</h3>
                                 <h6 class="card-subtitle mb-2">
-                                    <a href="#"><i class="bi bi-linkedin"></i></a> <!--mhmt linkedin-->
+                                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                                    <!--mhmt linkedin-->
                                 </h6>
                             </div>
                         </div>
@@ -632,14 +778,12 @@ son deneme
             <div class="container footer-copyright">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-9 py-3 footer-copyright-left d-flex justify-content-center align-items-center">
-                        <p>
-                            © 2024 - All rights reserved. Nexgen is maintained by Codings
-                            Group.
-                        </p>
+                        <p>© 2024 - All rights reserved</p>
                         <!-- vr veya right border ile çizgi ver -->
                     </div>
                     <div class="col-3 footer-copyright-right d-flex justify-content-center align-items-center">
-                        <a href="#"><i class="bi bi-linkedin"></i></a> <!--anıl linkedin-->
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <!--anıl linkedin-->
                     </div>
                 </div>
             </div>

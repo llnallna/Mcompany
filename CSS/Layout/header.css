@@ -16,11 +16,11 @@ header {
 } */
 
 .header-right-top {
-  color: var(--light-text-color);
+  color: var(--warning-color);
 }
 
 .header-right-top i {
-  color: var(--novtn-secondary-color);
+  color: var(--warning-color);
 }
 .header-right-top .telephone {
   border-right: 1px solid var(--light-text-color);
@@ -36,6 +36,6 @@ header {
 } */
 
 .navbar a {
-  color: var(--novtn-secondary-color);
+  color: var(--warning-color);
   /* padding: 0; */
 }
