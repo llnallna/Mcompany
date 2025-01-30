@@ -1,0 +1,228 @@
+/* HERO */
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../assets/home/hero_quality_control.jpg);
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
+  color: rgb(226, 214, 43);
+}
+
+/* .form-hero {
+  position: absolute;
+  top: 80px;
+  width: 300px;
+  right: 40px;
+  background-color: #807c7c;
+  padding: 30px;
+}
+
+.form-hero-bg {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 3px solid #595a3e;
+  pointer-events: none;
+} */
+
+/* ENGINEERING */
+
+/* --------- Index Section Services --------- */
+.index-sec-services-bg {
+  background-color: #232428;
+}
+
+.services-title {
+  font-size: 100px;
+}
+/* 
+.services-title::before {
+  content: "";
+  position: absolute;
+  right: 110%;
+  top: 0px;
+  height: 2px;
+  width: 70px;
+  background: rgb(255, 255, 255);
+} */
+
+.services-title::before {
+  content: "";
+  position: absolute;
+  right: 110%;
+  top: 0;
+  height: 2px;
+  width: 70px;
+  background: #fff;
+}
+
+.ul-marker-removed {
+  list-style-type: none;
+}
+/* ------------------------------------------------------------------------ */
+.index-sec-services-bg {
+  background-color: rgb(35, 36, 40);
+}
+
+.sec-services {
+  position: relative;
+  padding: 0;
+  height: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.sec-services a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.sec-services span {
+  position: relative;
+  z-index: 1;
+}
+
+.region-img {
+  width: 120%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.sec-services:hover .region-img {
+  opacity: 0.7;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  width: 140%;
+  transition: all 0.3s ease-in-out;
+}
+
+.card.text-bg-dark {
+  position: relative;
+  background-size: 100%;
+  background-position: center;
+  border: 0;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.card.text-bg-dark::before {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  transition: all 0.3s ease-in-out;
+}
+
+.card.text-bg-dark:hover {
+  transition: background-size 0.5s ease-in-out;
+  background-size: 110%;
+}
+
+.card.text-bg-dark:hover::before {
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+#section-property-management .form-label {
+  text-shadow: 1px 1px 5px black;
+}
+
+.card.text-bg-dark .card-img-overlay a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.reference-item {
+  background-color: #e4e4e4;
+}
+
+.satisfaction-button-next {
+  color: #000;
+  right: 45px;
+  top: 65%;
+}
+
+.satisfaction-button-prev {
+  top: 35%;
+  right: 50px;
+  left: auto;
+  color: #000;
+}
+.main-section h2 {
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* Contact Section */
+
+/* #home-contact-sec {
+  height: 100vh;
+} */
+
+/* .boxes {
+  height: 50vh;
+} */
+
+.contact-sect-box {
+  position: relative;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 30px;
+  padding: 40px;
+  padding-bottom: 0;
+  background: yellow;
+  border-radius: 7px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  transition: 0.2s;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.contact-sect-box:hover {
+  box-shadow: 0 44px 98px 0 rgba(0, 0, 0, 0.12);
+  z-index: 100;
+}
+
+.contact-sect-box i {
+  font-size: 42px;
+}
+
+.box-text-area {
+  display: inline-block;
+  vertical-align: bottom;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-sect-box:hover .box-text-area p {
+  opacity: 1;
+}
+
+.box-text-area p {
+  position: relative;
+  margin-bottom: -135px;
+  transition: 0.25s;
+  font-family: inherit !important;
+  opacity: 0;
+}

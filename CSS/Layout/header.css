@@ -39,3 +39,12 @@ header {
   color: var(--warning-color);
   /* padding: 0; */
 }
+
+/* .text-alta {
+  display: inline-block; Metni blok gibi davranır
+  width: 150px; Genişliği sınırla
+  overflow-wrap: break-word; Kelimeyi bölerek taşır
+  word-wrap: break-word; Tarayıcı uyumluluğu için ekle
+  white-space: normal; Normal satır kayması sağlar
+  text-align: center; Metni ortala
+} */
