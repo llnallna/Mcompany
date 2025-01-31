@@ -3,13 +3,16 @@
   --novtn-secondary-color: #00a6a6;
   --novtn-tertiary-color: #21333e;
   --novtn-quaternary-color: #21333ef7;
+
+  --novtn-dark-bg-color: #111117; /*aynı*/
+
   --white-bg-color: #fff;
   /* --light-bg-color: #f1f1f1; */
-  --light-bg-color: #1d252e;
+  --card-bg-color: #ffffff06; /*aynı*/
   /* --dark-bg-color: #111117; */
   --dark-bg-color: #13161d;
   --white-text-color: #fff;
-  --light-text-color: #8f93a5;
+  --light-text-color: #8f93a5; /*aynı*/
   --dark-text-color: #606d75;
   --success-color: #007a4d;
   --warning-color: #ff9800;
@@ -22,7 +25,8 @@
 
 div,
 p,
-.container-fluid {
+.container-fluid,
+.row {
   margin: 0;
   padding: 0;
 }
@@ -33,9 +37,4 @@ p,
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.8px);
   -webkit-backdrop-filter: blur(3.8px);
-}
-
-.row {
-  margin-right: 0;
-  margin-left: 0;
 }
