@@ -1,10 +1,10 @@
 /* HERO */
-.hero {
+.contact-hero {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.5) 20%,
       rgba(69, 68, 68, 0.5) 80%
     ),
-    url(../../assets/contact/contact-us-1.jpg);
+    url(../../assets/contact/contact-us-2.jpg);
   height: 50vh;
   background-position: center;
   background-repeat: no-repeat;

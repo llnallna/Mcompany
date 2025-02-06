@@ -1,0 +1,28 @@
+/* HERO */
+.fire-safety-hero {
+  background-image: linear-gradient(
+      rgba(16, 18, 81, 0.5) 20%,
+      rgba(13, 18, 59, 0.5) 80%
+    ),
+    url(../../assets/FireSafety/fire-safety-hero.jpg);
+  height: 40vh;
+  background-position: center 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  color: #ff9800;
+}
+
+.fire-safety-hero-sentence {
+  color: var(--novtn-secondary-color);
+}
+
+/* fire-safety-services-section starts */
+.mt-n1 {
+  margin-top: -33px !important;
+}
+.fire-safety-services-sect .service {
+  height: 66px;
+}
+
+/* fire-safety-services-section ends */
