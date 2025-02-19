@@ -1,32 +1,65 @@
 :root {
-  --novtn-primary-color: #058283;
-  --novtn-secondary-color: #00a6a6;
-  --novtn-tertiary-color: #21333e;
-  --novtn-quaternary-color: #21333ef7;
+  --color-primary: #058283; /*fill: #058283;*/
+  --color-secondary: #00a6a6;
+  --color-title: #21333e;
+  --color-text-dark: #606d75;
+  --color-text-light: #8f93a5;
+  --color-text-lighter: #e2e3e7;
+  --color-bg-lighter: #e2e3e7;
+  --color-bg-light: #bec1cea6; /*input bg*/
+  --color-bg-dark: #111117; /*footer*/
+  --color-bg-button: #00a6a626;
+  --color-bg-card: #ffffff06; /*aynı*/
 
-  --novtn-dark-bg-color: #111117; /*aynı*/
+  --quaternary-color: #21333ef7;
 
-  --white-bg-color: #fff;
+  /* --white-bg-color: #fff; */
   /* --light-bg-color: #f1f1f1; */
-  --card-bg-color: #ffffff06; /*aynı*/
   /* --dark-bg-color: #111117; */
   --dark-bg-color: #13161d;
   --white-text-color: #fff;
   --light-text-color: #8f93a5; /*aynı*/
-  --dark-text-color: #606d75;
-  --success-color: #007a4d;
+  /* --success-color: #007a4d;
+
+
   --warning-color: #ff9800;
-  --danger-color: #e34f4f;
+  --danger-color: #e34f4f; */
+
+  --e-global-color-4833d3a: #ececec;
+  --e-global-typography-primary-font-family: "Roboto";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Roboto Slab";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Roboto";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Roboto";
+  --e-global-typography-accent-font-weight: 500;
+  --e-global-typography-55eaafa-font-size: 4.5rem;
+  --e-global-typography-55eaafa-font-weight: 900;
+  --e-global-typography-18d7ce5-font-size: 1.2rem;
+  --e-global-typography-18d7ce5-font-weight: 400;
+  --e-global-typography-9d5639a-font-size: 1rem;
+  --e-global-typography-9d5639a-font-weight: 500;
+  --e-global-typography-c7cc4fa-font-size: 1.5rem;
+  --e-global-typography-c7cc4fa-font-weight: 700;
+  --e-global-typography-f895ce4-font-size: 1rem;
+  --e-global-typography-f895ce4-font-weight: 400;
+  --e-global-typography-3ea2bec-font-size: 3rem;
+  --e-global-typography-3ea2bec-font-weight: 800;
+  --e-global-typography-813e4b8-font-size: 0.9rem;
+  --e-global-typography-813e4b8-font-weight: 600;
 
   /* fonts */
   --primary-font: "Inter", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
 }
 
+body {
+  font-family: var(--primary-font);
+}
+
 div,
-p,
-.container-fluid,
-.row {
+p {
   margin: 0;
   padding: 0;
 }
@@ -38,3 +71,11 @@ p,
   backdrop-filter: blur(3.8px);
   -webkit-backdrop-filter: blur(3.8px);
 }
+
+/* .glass {
+  background: rgba(0, 166, 166, 0.149);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(17, 17, 23, 0.3);
+  backdrop-filter: blur(3.8px);
+  -webkit-backdrop-filter: blur(3.8px);
+} */

@@ -29,12 +29,12 @@
 
     <!---------------------------------------------------------------- text-shadow dene en son-->
     <!-- position-absolute özelliği sticky-top'ın çalışmasını engelliyor, kullanma-->
-    <header class="w-100 fixed-top pt-2">
+    <header class="w-100 fixed-top pt-3">
         <div class="container">
             <div class=" header-wrapper row align-items-center justify-content-center">
                 <!-- header-left -->
                 <div class="logo col-2 d-flex align-items-center justify-content-start p-0" id="header-left">
-                    <a href="#"><img src="assets/home/logo.png" alt="NovaTon" /></a>
+                    <a href="index.html"><img src="assets/home/logo.png" alt="NovaTon" /></a>
                 </div>
                 <!-- header-right -->
                 <div class="header-right-wrapper col-10 container-fluid py-3" id="header-right">
@@ -52,9 +52,9 @@
                         </div>
                     </div>
                     <!-- header-right-bottom -->
-                    <div class="row header-right-bottom pt-1">
+                    <div class="row header-right-bottom">
                         <!--buraya offcanvas, yandan gelebilir menü, soldan-->
-                        <nav class="navbar navbar-expand-lg">
+                        <nav class="navbar navbar-expand-lg py-0">
                             <div class="container-fluid">
 
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -69,7 +69,7 @@
                                         <!--flex-grow/shrink-1-->
                                         <li class="nav-item col-2">
                                             <a class="nav-link active text-center pe-0 me-0 ps-5" aria-current="page"
-                                                href="#">Ana Sayfa</a>
+                                                href="index.html">Ana Sayfa</a>
                                         </li>
 
                                         <li class="nav-item dropdown col-2">
@@ -165,7 +165,7 @@
     </header>
 
     <!-- HERO Starts -->
-    <section class="hero">
+    <section class="contact-hero">
         <!-- <div class="container min-vh-100 d-flex align-items-end">
             <div class="hero-wrapper pb-5 row">
                 <div class="hero-line vr mb-5 mt-5 px-0 ps-1"></div>
@@ -291,117 +291,104 @@
     </main>
 
     <!-- ********************** FOOTER STARTS ********************** -->
-    <footer>
-        <div class="container-fluid py-5 fw-light" id="footer">
-            <!-- footer-info -->
-            <div class="container footer-info my-5 py-5 px-0">
-                <div class="row row-cols-lg-5 g-lg-3"> <!--row-cols-md-2-->
+    <footer class="container-fluid fw-light d-flex flex-column align-items-center justify-content-center" id="footer">
 
-                    <!-- <p>
-                            DiamondKey'deki gibi arkaplan fotoğraf olacak mı?
-                            <br />
-                            olmayacaksa biz de adresi solda verelim, kutulara servisleri
-                            dağıtalım(link olsunlar)
-                            <br />
-                            sayfalar çok usun olursa footer'da menu link oluşturmak
-                            mantıklı, kısa olursa gerek olmaz
-                        </p>
-                        <br />
-                        <p>box'ların radius'larını arttır(Novaton daha yuvarlak)</p> -->
-
-                    <div class="col">
-                        <div class="card h-100 border-0">
-                            <div class="card-body">
-                                <h3 class="card-title">NorMec</h3>
-                                <p class="lh-sm">Şirketinizi Doğru Yönlendirmek İçin Buradayız</p>
+        <!-- footer-info -->
+        <section class="container footer-info my-5 py-5 px-0" id="footer-info-section">
+            <div class="row row-cols-lg-5 g-lg-3"> <!--row-cols-md-2-->
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <h3 class="card-title card-logo">NorMec</h3>
+                            <p class="lh-sm">Şirketinizi Doğru Yönlendirmek İçin Buradayız</p>
+                        </div>
+                        <!-- <br> -->
+                        <div class="card-body card-contact-information lh-base">
+                            <p>05553332211</p>
+                            <e-mail>hello@example.com</e-mail>
+                            <div class="social-media-icons pb-1">
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <!--mhmt linkedin-->
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <!--mhmt linkedin-->
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <!--mhmt linkedin-->
                             </div>
-                            <!-- <br> -->
-                            <div class="card-body card-contact-information lh-base">
-                                <p>05553332211</p>
-                                <e-mail>hello@example.com</e-mail>
-                                <div class="social-media-icons pb-1">
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                    <!--mhmt linkedin-->
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                    <!--mhmt linkedin-->
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                    <!--mhmt linkedin-->
-                                </div>
 
-                                <address class="card-subtitle mb-2 lh-1">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Fuga maxime dolore quam. Nisi. / İstanbul
-                                </address>
-                            </div>
+                            <address class="card-subtitle mb-2 lh-1">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Fuga maxime dolore quam. Nisi. / İstanbul
+                            </address>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col">
-                        <div class="card h-100 border-0 rounded-4 p-3">
-                            <div class="card-body">
-                                <h6 class="card-title fw-normal pb-2">Mühendislik Hizmetleri</h6>
-                                <ul class="list-unstyled lh-lg">
-                                    <li>Yangın Güvenlik Sistemleri</li>
-                                    <li>Endüstriyel Havalandırma</li>
-                                    <li>Ex-Proof Ürünler</li>
-                                    <li>Projelendirme Hizmetleri</li>
-                                </ul>
-                            </div>
+                <div class="col">
+                    <div class="card h-100 border-0 rounded-4 p-3">
+                        <div class="card-body">
+                            <h6 class="card-title fw-normal pb-2">Mühendislik Hizmetleri</h6>
+                            <ul class="list-unstyled lh-lg">
+                                <li>Yangın Güvenlik Sistemleri</li>
+                                <li>Endüstriyel Havalandırma</li>
+                                <li>Ex-Proof Ürünler</li>
+                                <li>Projelendirme Hizmetleri</li>
+                            </ul>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col">
-                        <div class="card h-100 border-0 rounded-4 p-3">
-                            <div class="card-body">
-                                <h6 class="card-title fw-normal pb-2">Otomasyon Sistemleri</h6>
-                                <ul class="list-unstyled lh-lg">
-                                    <li>HVAC Otomasyon</li>
-                                    <li>Akıllı Bina Sistemleri</li>
-                                    <li>Akıllı Yat Sistemleri</li>
-                                </ul>
-                            </div>
+                <div class="col">
+                    <div class="card h-100 border-0 rounded-4 p-3">
+                        <div class="card-body">
+                            <h6 class="card-title fw-normal pb-2">Otomasyon Sistemleri</h6>
+                            <ul class="list-unstyled lh-lg">
+                                <li>HVAC Otomasyon</li>
+                                <li>Akıllı Bina Sistemleri</li>
+                                <li>Akıllı Yat Sistemleri</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 border-0 rounded-4 p-3">
-                            <div class="card-body">
-                                <h6 class="card-title fw-normal pb-2">Belgelendirme Hizmetleri</h6>
-                                <ul class="list-unstyled lh-lg">
-                                    <li>ATEX Belgelendirme</li>
-                                    <li>TSE Belgelendirme</li>
-                                    <li>CE Belgelendirme</li>
-                                    <li class="lh-base">
-                                        Sistem Belgelendirme
-                                        <ul class="list-unstyled lh-base">
-                                            <li> > ISO 9001</li>
-                                            <li> > ISO 14001</li>
-                                            <li> > ISO 45001</li>
-                                            <li> > ISO 27001</li> <!--oklar yerine sağ ok ikonu olabilir ~  -->
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 rounded-4 p-3">
+                        <div class="card-body">
+                            <h6 class="card-title fw-normal pb-2">Belgelendirme Hizmetleri</h6>
+                            <ul class="list-unstyled lh-lg">
+                                <li>ATEX Belgelendirme</li>
+                                <li>TSE Belgelendirme</li>
+                                <li>CE Belgelendirme</li>
+                                <li class="lh-base">
+                                    Sistem Belgelendirme
+                                    <ul class="list-unstyled lh-base">
+                                        <li> > ISO 9001</li>
+                                        <li> > ISO 14001</li>
+                                        <li> > ISO 45001</li>
+                                        <li> > ISO 27001</li> <!--oklar yerine sağ ok ikonu olabilir ~  -->
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col">
-                        <div class="card h-100 border-0 rounded-4 p-3">
-                            <div class="card-body">
-                                <h6 class="card-title fw-normal pb-2">Periyodik Kontrol</h6>
-                                <ul class="list-unstyled lh-lg">
-                                    <li>İş Ekipmanları</li>
-                                    <li>İş Makineleri</li>
-                                    <li>Makine ve Tezgâhlar</li>
-                                </ul>
-                            </div>
+                <div class="col">
+                    <div class="card h-100 border-0 rounded-4 p-3">
+                        <div class="card-body">
+                            <h6 class="card-title fw-normal pb-2">Periyodik Kontrol</h6>
+                            <ul class="list-unstyled lh-lg">
+                                <li>İş Ekipmanları</li>
+                                <li>İş Makineleri</li>
+                                <li>Makine ve Tezgâhlar</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
 
         <!-- footer-copyright -->
-        <section class="footer-copyright-wrapper">
+        <section class="col-12 footer-copyright-wrapper" id="footer-copyright-section">
             <div class="container footer-copyright">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-9 py-3 footer-copyright-left d-flex justify-content-center align-items-center">

@@ -1,42 +1,39 @@
 /* HERO */
-.hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+.index-hero {
+  background-image: linear-gradient(
+      rgba(17, 17, 23, 0.95) 10%,
+      rgba(69, 68, 68, 0.5) 90%
+    ),
     url(../../assets/home/hero_quality_control.jpg);
   /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; */
-  color: rgb(226, 214, 43);
+  color: var(--color-secondary);
+
+  /* color: var(--color-title);
+  text-shadow: 10px 10px 20px var(--color-secondary); */
 }
 
-/* .form-hero {
-  position: absolute;
-  top: 80px;
-  width: 300px;
-  right: 40px;
-  background-color: #807c7c;
-  padding: 30px;
+section.index-hero .vr {
+  opacity: 1;
 }
-
-.form-hero-bg {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  border: 3px solid #595a3e;
-  pointer-events: none;
-} */
 
 /* ENGINEERING */
 
 /* --------- Index Section Services --------- */
-.index-sec-services-bg {
-  background-color: #232428;
+.index-engineering-section-bg {
+  background-color: var(--color-bg-dark);
 }
 
-.services-title {
-  font-size: 100px;
+.index-engineering-wrapper {
+  color: var(--color-text-light);
+}
+
+.index-engineering-title {
+  font-size: 6.25rem;
+  letter-spacing: -1px !important;
+  color: var(--color-secondary);
 }
 /* 
 .services-title::before {
@@ -47,7 +44,39 @@
   height: 2px;
   width: 70px;
   background: rgb(255, 255, 255);
-} */
+  } */
+
+.index-engineering-title::before {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 70px;
+  background: var(--color-secondary);
+  position: relative;
+  top: 1rem;
+  left: -4rem;
+  transform: translate(-50%, -50%);
+}
+
+.index-engineering-left a > i {
+  color: var(--color-secondary);
+}
+
+.ul-marker-removed {
+  list-style-type: none;
+}
+/* ------------------------------------------------------------------------ */
+
+/* INdex - AUTOMATION -SECTION */
+/* from diamond starts */
+/* --------- Index Section Services --------- */
+.index-sec-services-bg {
+  background-color: #232428;
+}
+
+.services-title {
+  font-size: 100px;
+}
 
 .services-title::before {
   content: "";
@@ -62,7 +91,96 @@
 .ul-marker-removed {
   list-style-type: none;
 }
-/* ------------------------------------------------------------------------ */
+
+.tr-guide-position-right {
+  left: auto;
+  right: 50px;
+}
+
+.tr-guide-position-ab-top {
+  top: -27%;
+}
+
+.tr-guide-swp-btn-position-top {
+  top: 50px;
+}
+
+.tr-guide-mySwiper {
+  padding: 100px 0;
+}
+
+.tr-guide-mySwiper .swiper-slide {
+  transform: scale(1);
+  z-index: 0;
+  position: relative;
+  transition: all 0.2s ease-in;
+}
+
+.tr-guide-mySwiper .card-desc {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tr-guide-mySwiper .swiper-slide:hover .card-desc {
+  opacity: 1;
+  visibility: visible;
+}
+
+.tr-guide-mySwiper .swiper-slide:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  transition: all 0.2s ease-in;
+  box-shadow: 0 0.5rem 1rem rgba(var(--bs-body-color-rgb), 0.9);
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.tr-guide-list li a {
+  padding: 5% 15%;
+}
+
+.tr-guide-list li a:hover {
+  background: -moz-linear-gradient(
+    0% 50% 0deg,
+    rgba(0, 25, 42, 1) 0.06%,
+    rgba(28, 49, 108, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 25, 42, 1) 0.06%,
+    rgba(28, 49, 108, 1) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    0% 50%,
+    100% 50%,
+    color-stop(0.0006, rgba(0, 25, 42, 1)),
+    color-stop(1, rgba(28, 49, 108, 1))
+  );
+  background: -o-linear-gradient(
+    0deg,
+    rgba(0, 25, 42, 1) 0.06%,
+    rgba(28, 49, 108, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(0, 25, 42, 1) 0.06%,
+    rgba(28, 49, 108, 1) 100%
+  );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00192A', endColorstr='#1C316C' ,GradientType=0)";
+  background: linear-gradient(
+    90deg,
+    rgba(0, 25, 42, 1) 0.06%,
+    rgba(28, 49, 108, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00192A', endColorstr='#1C316C', GradientType=1);
+  color: #ffffff !important;
+}
+
+/* from diamond ends */
+
 .index-sec-services-bg {
   background-color: rgb(35, 36, 40);
 }
@@ -184,13 +302,14 @@
 } */
 
 .contact-sect-box {
+  color: var(--color-text-light);
   position: relative;
   text-align: left;
   margin: 0px;
   margin-bottom: 30px;
   padding: 40px;
   padding-bottom: 0;
-  background: yellow;
+  background: var(--color-bg-dark);
   border-radius: 7px;
   border-bottom-width: 3px;
   border-bottom-style: solid;
@@ -226,3 +345,73 @@
   font-family: inherit !important;
   opacity: 0;
 }
+
+/* Index Certification Section STARTS */
+.index-certification-section-left-wrapper {
+  /* top: 0;
+  left: 0; */
+  /* width: 100%; */
+  height: 62vh;
+  /* width: 34rem;
+  height: 43.75rem; */
+  background: #948980;
+  background: rgba(148, 137, 128, 0.5);
+  /* z-index: 0; */
+}
+
+.layer-3 {
+  /* top: 0;
+  left: 0; */
+  width: 20rem;
+  height: 31.25rem;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0) 20%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.index-certification-section-left-text {
+  background: -moz-linear-gradient(
+    0% 50% 0deg,
+    rgba(43, 37, 38, 0) 0%,
+    rgba(43, 37, 38, 0.11) 11%,
+    rgba(43, 37, 38, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(43, 37, 38, 0) 0%,
+    rgba(43, 37, 38, 0.11) 11%,
+    rgba(43, 37, 38, 1) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    0% 50%,
+    100% 50%,
+    color-stop(0, rgba(43, 37, 38, 0)),
+    color-stop(0.11, rgba(43, 37, 38, 0.11)),
+    color-stop(1, rgba(43, 37, 38, 1))
+  );
+  background: -o-linear-gradient(
+    0deg,
+    rgba(43, 37, 38, 0) 0%,
+    rgba(43, 37, 38, 0.11) 11%,
+    rgba(43, 37, 38, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(43, 37, 38, 0) 0%,
+    rgba(43, 37, 38, 0.11) 11%,
+    rgba(43, 37, 38, 1) 100%
+  );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#2B2526', endColorstr='#2B2526' ,GradientType=0)";
+  background: linear-gradient(
+    90deg,
+    rgba(43, 37, 38, 0) 0%,
+    rgba(43, 37, 38, 0.11) 11%,
+    rgba(43, 37, 38, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2B2526',endColorstr='#2B2526' , GradientType=1);
+}
+
+/* Index Certification Section ENDS */

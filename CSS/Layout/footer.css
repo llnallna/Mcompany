@@ -1,20 +1,35 @@
 #footer {
-  color: var(--light-text-color);
-  background-color: var(--dark-bg-color);
-}
-
-#footer .footer-info .card h3 {
-  color: var(--white-text-color);
+  color: var(--color-text-light);
+  background-color: var(--color-bg-dark);
 }
 
 /* footer-info */
-#footer .footer-info .card {
-  background-color: var(--light-bg-color);
-  color: var(--light-text-color);
+#footer .footer-info .row .col:first-child .card {
+  background-color: unset;
+  color: var(--color-text-light);
+}
+
+#footer .footer-info .row .col:not(:first-child) .card {
+  background-color: var(--color-bg-card);
+  color: var(--color-text-light);
+}
+
+#footer .card .card-logo {
+  color: var(--color-primary);
+}
+
+#footer .card h6 {
+  color: var(--color-text-light);
+  text-shadow: 0px 3px 5px var(--color-primary);
+}
+
+#footer .card-body > ul > * {
+  font-family: var(--primary-font);
+  font-style: default;
+  font-size: 0.75rem;
 }
 
 /* footer-copyright */
-#footer .footer-copyright {
-  background-color: var(--light-bg-color);
-  color: yellow;
+footer .footer-copyright-wrapper {
+  background-color: var(--color-bg-card);
 }
