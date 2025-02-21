@@ -19,10 +19,23 @@ section.index-hero .vr {
   opacity: 1;
 }
 
-/* ENGINEERING */
+/* --------- Index ENGINEERING Section STARTS --------- */
 
-/* --------- Index Section Services --------- */
-.index-engineering-section-bg {
+/* yatay scrollbar çıktığı zmn neyin taşmaya sebep olduğunu görmek için  */
+
+/* body {
+  overflow-x: hidden;
+} */
+
+/* #index-engineering-section,
+.index-engineering-wrapper,
+.index-engineering-left,
+.index-engineering-right,
+.index-engineering-right .card {
+  overflow: hidden;
+} */
+
+.left-bg-dark {
   background-color: var(--color-bg-dark);
 }
 
@@ -30,32 +43,31 @@ section.index-hero .vr {
   color: var(--color-text-light);
 }
 
-.index-engineering-title {
+.index-engineering-left {
+  padding-left: 8rem;
+}
+
+.index-engineering-left .index-engineering-title {
+  font-family: var(--title);
   font-size: 6.25rem;
+  /* font-weight: 400; */
+  line-height: 1;
   letter-spacing: -1px !important;
   color: var(--color-secondary);
 }
-/* 
-.services-title::before {
-  content: "";
-  position: absolute;
-  right: 110%;
-  top: 0px;
-  height: 2px;
-  width: 70px;
-  background: rgb(255, 255, 255);
-  } */
 
 .index-engineering-title::before {
   content: "";
-  display: inline-block;
   height: 2px;
   width: 70px;
   background: var(--color-secondary);
-  position: relative;
-  top: 1rem;
-  left: -4rem;
-  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 0;
+  left: -6rem;
+}
+
+.index-engineering-left p {
+  font-family: var(--title-description);
 }
 
 .index-engineering-left a > i {
@@ -65,68 +77,47 @@ section.index-hero .vr {
 .ul-marker-removed {
   list-style-type: none;
 }
-/* ------------------------------------------------------------------------ */
 
-/* INdex - AUTOMATION -SECTION */
-/* from diamond starts */
-/* --------- Index Section Services --------- */
-.index-sec-services-bg {
-  background-color: #232428;
+#index-engineering-section .index-engineering-right a {
+  color: var(--color-text-light);
+  opacity: 0.8;
+}
+#index-engineering-section .index-engineering-right a span.vertical-line {
+  border-color: var(--color-text-light) !important;
+  opacity: 0.8;
 }
 
-.services-title {
-  font-size: 100px;
+#index-engineering-section .index-engineering-right h2 {
+  font-family: var(--title);
 }
+/* --------- Index ENGINEERING Section ENDS --------- */
 
-.services-title::before {
-  content: "";
-  position: absolute;
-  right: 110%;
-  top: 0;
-  height: 2px;
-  width: 70px;
-  background: #fff;
-}
-
-.ul-marker-removed {
-  list-style-type: none;
-}
-
-.tr-guide-position-right {
-  left: auto;
-  right: 50px;
-}
-
-.tr-guide-position-ab-top {
-  top: -27%;
-}
-
-.tr-guide-swp-btn-position-top {
-  top: 50px;
-}
-
-.tr-guide-mySwiper {
+/* --------- Index - AUTOMATION - Section STARTS --------- */
+#automation-content-carousel.content-carousel {
   padding: 100px 0;
 }
 
-.tr-guide-mySwiper .swiper-slide {
+#automation-content-carousel.content-carousel .content-carousel-card {
   transform: scale(1);
   z-index: 0;
   position: relative;
   transition: all 0.2s ease-in;
 }
 
-.tr-guide-mySwiper .card-desc {
+#automation-content-carousel.content-carousel .card-desc {
   opacity: 0;
   visibility: hidden;
 }
 
-.tr-guide-mySwiper .swiper-slide:hover .card-desc {
+#automation-content-carousel
+  .content-carousel
+  .content-carousel-card:hover
+  .card-desc {
   opacity: 1;
   visibility: visible;
 }
 
-.tr-guide-mySwiper .swiper-slide:hover {
+#automation-content-carousel.content-carousel .content-carousel-card:hover {
   transform: scale(1.05);
   z-index: 1;
   transition: all 0.2s ease-in;
@@ -137,11 +128,7 @@ section.index-hero .vr {
   pointer-events: none;
 }
 
-.tr-guide-list li a {
-  padding: 5% 15%;
-}
-
-.tr-guide-list li a:hover {
+.automation-list li:hover {
   background: -moz-linear-gradient(
     0% 50% 0deg,
     rgba(0, 25, 42, 1) 0.06%,
@@ -178,8 +165,7 @@ section.index-hero .vr {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00192A', endColorstr='#1C316C', GradientType=1);
   color: #ffffff !important;
 }
-
-/* from diamond ends */
+/* --------- Index - AUTOMATION - Section ENDS --------- */
 
 .index-sec-services-bg {
   background-color: rgb(35, 36, 40);

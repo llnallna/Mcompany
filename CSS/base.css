@@ -1,3 +1,8 @@
+/* yatay scrollbar çıktığı zmn neyin taşmaya sebep olduğunu görmek için  */
+/* * {
+  outline: 1px solid red;
+} */
+
 :root {
   --color-primary: #058283; /*fill: #058283;*/
   --color-secondary: #00a6a6;
@@ -13,55 +18,46 @@
 
   --quaternary-color: #21333ef7;
 
-  /* --white-bg-color: #fff; */
-  /* --light-bg-color: #f1f1f1; */
-  /* --dark-bg-color: #111117; */
-  --dark-bg-color: #13161d;
-  --white-text-color: #fff;
-  --light-text-color: #8f93a5; /*aynı*/
-  /* --success-color: #007a4d;
+  /* fonts */
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  --title: "Playfair Display", serif;
+  --title-description: "Poppins", serif;
+}
+
+/*--dark-bg-color: #13161d;
+
 
 
   --warning-color: #ff9800;
   --danger-color: #e34f4f; */
 
-  --e-global-color-4833d3a: #ececec;
-  --e-global-typography-primary-font-family: "Roboto";
-  --e-global-typography-primary-font-weight: 600;
-  --e-global-typography-secondary-font-family: "Roboto Slab";
-  --e-global-typography-secondary-font-weight: 400;
-  --e-global-typography-text-font-family: "Roboto";
-  --e-global-typography-text-font-weight: 400;
-  --e-global-typography-accent-font-family: "Roboto";
-  --e-global-typography-accent-font-weight: 500;
-  --e-global-typography-55eaafa-font-size: 4.5rem;
-  --e-global-typography-55eaafa-font-weight: 900;
-  --e-global-typography-18d7ce5-font-size: 1.2rem;
-  --e-global-typography-18d7ce5-font-weight: 400;
-  --e-global-typography-9d5639a-font-size: 1rem;
-  --e-global-typography-9d5639a-font-weight: 500;
-  --e-global-typography-c7cc4fa-font-size: 1.5rem;
-  --e-global-typography-c7cc4fa-font-weight: 700;
-  --e-global-typography-f895ce4-font-size: 1rem;
-  --e-global-typography-f895ce4-font-weight: 400;
-  --e-global-typography-3ea2bec-font-size: 3rem;
-  --e-global-typography-3ea2bec-font-weight: 800;
-  --e-global-typography-813e4b8-font-size: 0.9rem;
-  --e-global-typography-813e4b8-font-weight: 600;
-
-  /* fonts */
-  --primary-font: "Inter", sans-serif;
-  --secondary-font: "Montserrat", sans-serif;
-}
+/* --e-global-color-4833d3a: #ececec;
+--e-global-typography-primary-font-family: "Roboto";
+--e-global-typography-primary-font-weight: 600;
+--e-global-typography-secondary-font-family: "Roboto Slab";
+--e-global-typography-secondary-font-weight: 400;
+--e-global-typography-text-font-family: "Roboto";
+--e-global-typography-text-font-weight: 400;
+--e-global-typography-accent-font-family: "Roboto";
+--e-global-typography-accent-font-weight: 500;
+--e-global-typography-55eaafa-font-size: 4.5rem;
+--e-global-typography-55eaafa-font-weight: 900;
+--e-global-typography-18d7ce5-font-size: 1.2rem;
+--e-global-typography-18d7ce5-font-weight: 400;
+--e-global-typography-9d5639a-font-size: 1rem;
+--e-global-typography-9d5639a-font-weight: 500;
+--e-global-typography-c7cc4fa-font-size: 1.5rem;
+--e-global-typography-c7cc4fa-font-weight: 700;
+--e-global-typography-f895ce4-font-size: 1rem;
+--e-global-typography-f895ce4-font-weight: 400;
+--e-global-typography-3ea2bec-font-size: 3rem;
+--e-global-typography-3ea2bec-font-weight: 800;
+--e-global-typography-813e4b8-font-size: 0.9rem;
+--e-global-typography-813e4b8-font-weight: 600; */
 
 body {
   font-family: var(--primary-font);
-}
-
-div,
-p {
-  margin: 0;
-  padding: 0;
 }
 
 .glass {
@@ -79,3 +75,12 @@ p {
   backdrop-filter: blur(3.8px);
   -webkit-backdrop-filter: blur(3.8px);
 } */
+
+.justified-text {
+  text-align: justify;
+  hyphens: auto;
+}
+
+.margin-negative-l1 {
+  margin-left: -1.4rem;
+}
