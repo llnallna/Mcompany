@@ -1,11 +1,17 @@
 #footer {
+<<<<<<< HEAD
   color: var(--color-text-light);
   background-color: var(--color-bg-dark);
+=======
+  color: var(--light-text-color);
+  background-color: var(--novtn-dark-bg-color);
+>>>>>>> 39088bce0a5f3bd3133533802e4325dec8142db1
 }
 
 /* footer-info */
 #footer .footer-info .row .col:first-child .card {
   background-color: unset;
+<<<<<<< HEAD
   color: var(--color-text-light);
 }
 
@@ -27,9 +33,32 @@
   font-family: var(--primary-font);
   font-style: default;
   font-size: 0.75rem;
+=======
+  color: var(--light-text-color);
+}
+
+#footer .footer-info .row .col:not(:first-child) .card {
+  background-color: var(--card-bg-color);
+  color: var(--light-text-color);
+>>>>>>> 39088bce0a5f3bd3133533802e4325dec8142db1
+}
+
+#footer .card h6 {
+  color: var(--novtn-primary-color);
+}
+
+#footer .card-body > ul > * {
+  font-family: Inter, sans-serif;
+  font-style: default;
+  font-size: 0.75rem;
 }
 
 /* footer-copyright */
 footer .footer-copyright-wrapper {
+<<<<<<< HEAD
   background-color: var(--color-bg-card);
+=======
+  background-color: var(--card-bg-color);
+  /* color: magenta; */
+>>>>>>> 39088bce0a5f3bd3133533802e4325dec8142db1
 }

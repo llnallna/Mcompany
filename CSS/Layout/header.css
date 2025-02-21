@@ -1,7 +1,15 @@
 /* Fonts */
+nav > * {
+  font-weight: 200;
+}
+
 .navbar .navbar-nav .nav-item a:not(.btn) {
   font-family: var(--primary-font);
   font-size: 1rem;
+<<<<<<< HEAD
+=======
+  /* font-weight: 500; */
+>>>>>>> 39088bce0a5f3bd3133533802e4325dec8142db1
   line-height: 1.5;
   letter-spacing: 1px;
 }
@@ -16,6 +24,7 @@ header {
   border-right: 0.625rem solid var(--novtn-secondary-color);
 } */
 
+<<<<<<< HEAD
 /* .header-right-wrapper .header-right-top {
   color: var(--novtn-secondary-color);
 } */
@@ -26,6 +35,14 @@ header {
 
 .header-right-wrapper .header-right-top a > i {
   color: var(--color-primary);
+=======
+.header-right-top {
+  color: var(--novtn-secondary-color);
+}
+
+.header-right-top i {
+  color: var(--novtn-primary-color);
+>>>>>>> 39088bce0a5f3bd3133533802e4325dec8142db1
 }
 
 .header-right-top .telephone {
